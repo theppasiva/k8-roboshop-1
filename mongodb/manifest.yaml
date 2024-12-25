@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: joindevops/mongodb:v1
+        image: theppasiva/mongodb:v1
         imagePullPolicy: Always
 ---
 apiVersion: v1
