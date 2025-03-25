@@ -27,11 +27,11 @@ spec:
         imagePullPolicy: Always
 ---
 apiVersion: v1
-kind: Service
+kind: Service 
 metadata:
   name: mongodb
   namespace: roboshop
-spec:
+spec: # here we use clusterip service
   selector:
     app: mongodb
     project: roboshop
